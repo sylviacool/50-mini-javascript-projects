@@ -22,4 +22,4 @@ btns.forEach(function(btn) {
 
   function setColor (count) {
       showValue.style.color = count > 0 ? "blue" : count < 0 ? "red" : "black";
-  }
+  };
