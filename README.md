@@ -5,8 +5,8 @@ I will be adding projects over time as I practice JavaScript.
 
 ## 📁 Project List
 Each project is stored in a separate folder:  
-✅ **Project 1:** Counter  
-✅ **Project 2:** simple color flipper  
+✅ **Project 1:** simple color flipper
+✅ **Project 2:** Counter 
 ✅ **Project 3:** hex color flipper
 ✅ **Project 4:** navbar  
 (And more to come!)
