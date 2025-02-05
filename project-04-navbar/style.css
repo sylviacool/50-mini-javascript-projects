@@ -51,20 +51,25 @@ a {
   border: none;
   cursor: pointer;
 }
-
-
-
-
 @media screen and (min-width: 12rem) and (max-width: 76.8rem) {
-  .media {
-    display: flex;
-    flex-direction: column;
-  }
+ 
+  
+  .media, .socials {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
 
-  .socials {
+}
+
+.display-media, .display-socials {
+    height: 9rem;
     display: flex;
     flex-direction: column;
-  }
+    align-items: center;
+    justify-items: center;
+    margin-top: 3rem;
+}
+  
 }
 
 @media screen and (min-width: 76.8rem) and (max-width: 120rem) {
